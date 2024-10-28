@@ -1,0 +1,122 @@
+
+table {
+    width: 90%; 
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+
+th {
+    height: 60px; 
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: left;
+    padding: 15px; 
+    font-weight: bold;
+    font-size: 1.1em; 
+    text-align: center;
+}
+
+
+th,
+td {
+    padding: 12px; 
+    border-bottom: 1px solid #ddd; 
+}
+
+td {
+    text-align: center; 
+    background-color: #f9f9f9; 
+}
+
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.05); 
+}
+
+
+.btn {
+    padding: 0.75rem 1.5rem; 
+    border-radius: 5px; 
+    border: none; 
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--primary-color__hover);
+    transform: translateY(-2px);
+}
+
+
+.formbody {
+    margin: 20px;
+    padding: 30px; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1)
+}
+
+
+label {
+    display: inline-block;
+    width: 200px; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+    font-size: 1em; 
+}
+
+
+input {
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    width: calc(100% - 20px);
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+input:focus {
+    border-color: var(--primary-color); 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.container {
+    border-radius: 10px; 
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    background-color: #f5f5f5;
+    margin: 20px; 
+}
+
+
+.col-25,
+.col-75 {
+    float: left;
+    margin-top: 10px; 
+}
+
+.col-25 {
+    width: 30%; 
+}
+
+.col-75 {
+    width: 70%;
+}
+
+
